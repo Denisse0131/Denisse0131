@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>Ruta 2.0</title>
+		<link rel = "shortcurt icon" href="../Imagenes/simbolo.ico" type = "image/x-icon"/>
+		<meta charset = "UTF-8"/>
+		<link rel = "stylesheet" href = "estilo.css" type="text/css"/>
+	</head>
+		<body>
+		<div id = "baner" >
+			<div id = "logo">
+			<img src= " ../Imagenes/logo.png" width="1280" height= "150"/>
+			</div>
+		</div>
+		<div id = "menu">
+			<ul>
+				<li><a href = "Quienes somos.html"><li>¿Quienes somos?</li></a>
+		     	<li><a href = "sitios.html"><li>Sitios</li></a>
+				<li><a href = "Paquetes.html"><li>Paquetes</li></a>
+		     	<li><a href = "Contacto.html"><li>Contacto</li></a>
+			</ul>
+		</div>
+		<div id = "contenido">
+			<div id = "izq">
+				
+			</div>
+			<div id = "centro">	
+				<br>
+				<script type= "text/javascript">
+					function Enviar()
+					{
+						alert("Mensaje Enviado");
+					}
+				
+				</script>
+				<form id="contact-form" class = "contact" name ="contact-form" method="post" action="enviar2.php">
+					<div class= "form-group">
+					Nombre: <br>
+					<input type = "text" name="nombre" class="form-control name-field" required="required" >
+					</div>
+					<br><br>
+					<div class= "form-group">
+					Correo: <br>
+					<input type = "email" name="email" class="form-control mail-field" required="required" >
+					</div>
+					<br><br>
+					<div class= "form-group">
+					Mensaje: <br>
+					<textarea name="mensaje" id ="message" required="required" class="form-control" rows="8"></textarea>
+					</div>
+					<br><br>
+					<div class= "form-group">
+					<button type="submit" class="btn btn-primary">Enviar</button>
+					</div>
+				</form>
+			</div>
+			<div id = "der">
+			</div>
+		</div>
+		<div id = "copyright">
+		</div>
+</html>

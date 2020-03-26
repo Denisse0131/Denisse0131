@@ -1,0 +1,86 @@
+body
+{
+	margin: 0 auto;
+	width: 1280px;
+	height: 780 px;
+	background:url("../Imagenes/Paraiso.jpg") repeat-y; /*para el fondo de la pagina*/
+}
+#baner
+{
+	width: 1280px;
+	height: 150px;
+	background:#27C10F;
+}
+
+#menu
+{
+	
+	background:#F9E640;
+	font-size: 16px;
+	
+}
+#menu ul
+{
+	list-style: none;
+	
+}
+#menu ul li
+{
+	display: inline-block;
+}
+#menu ul  li a
+{
+	color: black;
+	display:block;
+	padding: 20px 50px;
+	text-decoration: none;
+}
+#menu ul li a:hover
+{
+	background-color: #FC8E08;
+}
+
+
+#contenido
+{
+	width: 1280px;
+	height: 500px;
+	background: white;
+}
+
+#izq
+{
+	float:left;
+	width: 240px;
+	height: 510px;
+	background-color:#27C10F;
+	
+}
+#centro
+{
+	float:left;
+	width: 800px;
+	height: 500px;
+	background-color:white;
+	overflow-y: auto;
+	font-size:16px;
+	font-family: Arial;
+	font-style: normal;
+	padding:5px;
+	
+	
+}
+#der
+{
+	float:left;
+	width: 230px;
+	height: 510px;
+	background-color:#27C10F;
+	
+}
+#copyright
+{
+	width: 1280px;
+	height: 50px;
+	background-color:#F9E640;
+}
